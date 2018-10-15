@@ -76,13 +76,5 @@ dependencies {
 
 	testCompile("com.github.stefanbirkner:system-rules:1.17.1")
 	
-	cloudfoundry {
- target='https://console.run.pivotal.io/'
- space = 'development'
- username = 'jaganparthiban.jp@gmail.com'
- password = 'Tej@2013'
- file = new File('build/libs/template-project-1.2.0.war')
- application = 'demopizaa'
- }
 
 }
