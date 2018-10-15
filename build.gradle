@@ -14,7 +14,7 @@ buildscript {
     }
   }
   dependencies {
-    classpath "gradle.plugin.com.github.pivotalservices:ya-cf-app-gradle-plugin:2.3.0-rc.6"
+    classpath "gradle.plugin.com.github.pivotalservices:ya-cf-app-gradle-plugin:1.0.7"
   }
 }
 
