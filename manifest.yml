@@ -2,4 +2,8 @@
 applications:
 - name: Demo Pizaa
   path: build/libs/Demo Pizaa-1.0.0-SNAPSHOT.jar
-  
+  memory: 512M
+  instances: 2
+buildpacks: 
+ - https://github.com/cloudfoundry/java-buildpack.git
+no-route: true
