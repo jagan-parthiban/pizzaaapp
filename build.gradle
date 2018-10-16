@@ -64,6 +64,10 @@ dependencies {
 	compile "org.springframework.geode:spring-gemfire-starter:$springBootDataGemFireVersion"
 
 	compile ("org.apache.logging.log4j:log4j-slf4j-impl")
+	compile 'org.cloudfoundry:cloudfoundry-client-reactor:2.0.0.BUILD-SNAPSHOT'
+    	compile 'org.cloudfoundry:cloudfoundry-operations:2.0.0.BUILD-SNAPSHOT'
+    	compile 'io.projectreactor:reactor-core:2.5.0.BUILD-SNAPSHOT'
+    	compile 'io.projectreactor:reactor-netty:2.5.0.BUILD-SNAPSHOT
 
 	runtime "com.h2database:h2"
 	runtime "org.slf4j:jcl-over-slf4j"
