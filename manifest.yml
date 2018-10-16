@@ -1,5 +1,5 @@
 ---
 applications:
-- name: cloudcache-pizza-store
+- name: Demo Pizaa
   path: build/libs/PCC-Sample-App-PizzaStore-1.0.0-SNAPSHOT.jar
   
