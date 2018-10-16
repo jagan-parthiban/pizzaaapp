@@ -1,5 +1,5 @@
 ---
 applications:
 - name: Demo Pizaa
-  path: build/libs/PCC-Sample-App-PizzaStore-1.0.0-SNAPSHOT.jar
+  path: build/libs/Demo Pizaa-1.0.0-SNAPSHOT.jar
   
